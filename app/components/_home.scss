@@ -1,0 +1,18 @@
+/*! _home.scss */
+
+@import "../styles/variables";
+
+$component: 'home';
+
+.#{$component} {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 56rem;
+  margin-top: 0;
+
+  &__image {
+    width: 8rem;
+    height: 6rem;
+  }
+}
